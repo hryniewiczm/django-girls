@@ -13,8 +13,9 @@ h3 {
     color: #FCA205;
 }
 
-/* #FCA205 */
-/* #0c992a */
+p {
+    font-size: 17px;
+}
 
 .page-header {
     background-image: linear-gradient(125deg,#0c992a 0, #FCA205 50%, red 100%);
@@ -26,10 +27,11 @@ h3 {
     color: #ffffff;
     font-size: 36pt;
     text-decoration: none;
+    text-align: center;
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 0 auto;
 }
 
 h1, h2, h3, h4 {
@@ -63,8 +65,48 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid grey;
+    text-align: justify;
 }
 
-.post h1 a, .post h1 a:visited {
-    color: #000000;
+.post h1 a,
+.post h1 a:visited {
+    color: rgb(53, 43, 43);
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 2px 1px grey;
+    opacity: .5;
+}
+
+footer {
+    padding: 30px 0;
+    /* padding-top: 30px; */
+    background-image: linear-gradient(125deg, red 0, #FCA205 50%, #0c992a 100%);
+}
+
+footer p {
+    font-size: 30px;
+}
+
+footer,
+a,
+a:hover {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lobster', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.default:link,
+.default:visited,
+.default:hover,
+.default:active {
+    background: #FCA205;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 25px;
+    float: right;
 }
