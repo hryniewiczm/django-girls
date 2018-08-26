@@ -61,6 +61,7 @@ h1, h2, h3, h4 {
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+    font-family: 'Lobster', sans-serif;
 }
 
 .post {
@@ -77,6 +78,14 @@ h1, h2, h3, h4 {
     font-weight: bold;
     text-shadow: 0 2px 1px grey;
     opacity: .5;
+}
+
+.post a,
+.post a:visited,
+.post a:hover,
+.post a:active {
+    color: black;
+    font-size: 18px;
 }
 
 footer {
@@ -109,4 +118,12 @@ a:hover {
     font-family: 'Lobster', sans-serif;
     font-size: 25px;
     float: right;
+}
+
+.default:not(:last-child) {
+    margin-right: 20px;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
